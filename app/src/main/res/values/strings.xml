@@ -20,6 +20,8 @@
     <string name="bottom_app_bar">Bottom App Bar</string>
     <string name="material_buttons">Material Buttons</string>
     <string name="material_chips">Material Chips</string>
+    <string name="text_fields">Text Fields</string>
+    <string name="hint_text">Hint Text</string>
 
     <string-array name="material_components_array">
         <item>Bottom App Bar</item>

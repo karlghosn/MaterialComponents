@@ -26,6 +26,7 @@ public class FragmentMain extends Fragment {
         Button bottomBarBt = rootView.findViewById(R.id.bottom_app_bar);
         Button chipsBt = rootView.findViewById(R.id.material_chips);
         Button materialBt = rootView.findViewById(R.id.material_buttons);
+        Button textFieldsBt = rootView.findViewById(R.id.text_fields);
 
         bottomBarBt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +46,13 @@ public class FragmentMain extends Fragment {
             @Override
             public void onClick(View v) {
                 activity.replaceFragment(new FragmentButtons());
+            }
+        });
+
+        textFieldsBt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.replaceFragment(new FragmentTextFields());
             }
         });
 
